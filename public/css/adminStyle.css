@@ -1,0 +1,73 @@
+/*Backend style for DWJ P4*/
+/*0. General shapping*/
+html,body { 
+	margin: auto;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height:100%;
+}
+
+.container{
+	height:100%;
+	max-width: 1200px;
+}
+
+/*1.0 Header shapping*/
+.jumbotron{
+	background-color: #1F85DE;
+	height: 115px
+}
+
+.jumbotron h1{
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+footer{
+	background-color: white;
+}
+/*2.0 Dashboard shapping*/
+h2{
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+h4{
+	font-weight: bold;
+	text-align: center;
+}
+
+.countInfo {
+    color: blue;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.container{
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+/*3.0 Comments management tool shapping*/
+.comment-management-title{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.table th, td{
+	text-align: center;
+}
+
+/*4.0 Post create-update shapping*/
+.writing-zone{
+	margin: auto;
+	left: 0;
+	right: 0;
+}
